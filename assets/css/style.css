@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
@@ -31,7 +31,7 @@
 }
 
 .ui-menu-color-contact {
-    background-color: #9282b3;
+    background-color: #8CA7B9;
 }
 
 .ui-menu-color-download {
@@ -250,11 +250,20 @@ a i: hover{
     color: #e67e22;
 }
 
+
+
 .three-reasons-heading {
     margin-bottom: 15px;
     font-size: 19px;
+    font-weight: 300;
 }
 
+.three-reasons-heading-2 {
+    font-size: 19px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-bottom: -10px;
+}
 /* ----------------------------------------Personal Info */
 
 .personal-info-item {
@@ -328,7 +337,9 @@ a i: hover{
 .timeline-item p {
     padding: 0;
     margin: 0;
+    font-size: 13px;
 }
+
 
 .timeline-item:before {
     content: attr(data-dates);
@@ -460,3 +471,25 @@ div p a:hover {
 }
 
 
+.sub-tittle-heading {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.title-3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: black;
+    
+}
